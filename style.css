@@ -1,0 +1,274 @@
+body{margin:0 auto;
+padding:0px;
+text-align: center; border-width: 0PX}
+
+#container1{background-color:#ca3d26;width:1110px;height:3450px;border-radius: 7px;border-color:white;border-style: double;border-width: 50px}
+.logo{position: relative;width: 750px;height: 650px;display: inline-block;float:center;margin-top:50px;}
+.clear{clear:both;margin:0px;padding:0px;}
+.patch{width: 410px;height: 355px;background-color:#ca3d26;position: absolute;z-index:0;left:377px;top:88px;}
+
+ H1{COLOR:red;font-size: 100PX;font-family:sans-serif,arial,serif;margin-bottom: 100PX;left:10PX;position: relative;}
+H4{font-size: 40PX;font-family:sans-serif,arial,serif;left:10px;}
+.hs{COLOR:WHITE;font-size: 130PX;font-family:sans-serif,arial,serif;margin-bottom: 100PX;left:10PX;position: relative;}
+
+#container2{background-color:#ca3d26;width:1110px;height:4050px;border-radius: 7px;border-color:white;border-style: double;border-width: 50px}
+.logo2{z-index:1;position: relative;width: 500px;height: 400px;display: inline-block;float:center;margin-top:50px;}
+#container3{background-color:white;width:1110px;height:5050px;border-radius: 7px;border-color:red;border-style: double;border-width: 20px}
+#container4{background-color:white;width:1110px;height:3850px;border-radius: 7px;border-color:red;border-style: double;border-width: 20px}
+#container5{background-color:white;width:1110px;height:2700px;border-radius: 7px;border-color:red;border-style: double;border-width: 20px}
+#container6{background-color:white;width:1110px;height:5300px;border-radius: 7px;border-color:red;border-style: double;border-width: 20px}
+#container7{background-color:white;width:1110px;height:6300px;border-radius: 7px;border-color:red;border-style: double;border-width: 20px}
+#container8{border-radius:7px;border-style: double;border-color:#ca3d26;border-width:20px;background-color:white;width:1110px;height:10000px;}
+#container9{background-color:#ca3d26;width:1110px;height:2700px;border-radius: 7px;border-color:WHITE;border-style: double;border-width: 50px}
+
+
+ .food-h3{color:white;display: inline-block;}
+ .love-h3{color:white;display: inline-block;}
+.loveanimation{ font-family:"TIMES NEW ROMAN",SERIF;top: 560PX;left:420PX;width: 350px;height: 150px;position:absolute;font-size: 48px;margin: 0px;padding: 0px;float:left;display: inline-block;position:0PX;}
+.animate-flicker {
+    opacity:1;
+    animation: flickerAnimation 1s infinite;
+}
+ .loveanimation2{z-index:1;position:relative;font-size: 43px;margin:0 AUTO 0 AUTO;padding:-1PX;display: inline-block;}
+
+ .loveanimation2{ font-family:"TIMES NEW ROMAN",SERIF;color: white;text-decoration: none;
+
+   background-color:none;
+left: -10PX;
+
+   animation-name:loveanimation2;
+   animation-duration: 2s;
+   animation-iteration-count:1;
+  animation-fill-mode: forwards;
+  animation-delay:s
+
+ }
+
+ @keyframes loveanimation2 {
+   0%   { TOP:1800px;}
+   100%  {TOP:60px;}
+
+  }
+  .loveanimation2:hover{background-color: white;color: black;border-radius: 40px;border-style: double;}
+
+  .carta2{ z-index: 1;width: 300px;height: 300px;display: inline-block;position: relative;left:-100px;margin: 0px,0px,padding:0px;
+
+  transition: width 2s, height 2s, transform 1s;
+}
+
+.carta2:hover {
+  width: 500px;
+  height: 500px;
+  transform: rotate(360deg)
+  ;
+}
+.MENU{animation-name:MENU;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 3s;
+TOP:2000PX;
+
+}
+
+@keyframes MENU {
+0%   { TOP:1600px;}
+100%  {TOP:80px;}
+
+}
+.carta2{animation-name:carta2;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+TOP:2000PX;
+
+}
+
+@keyframes carta2 {
+0%   { TOP:1600px;}
+100%  {TOP:80px;}
+
+}
+.MENU{z-index: 1;width: 300px;height: 300px;display: inline-block;position: relative;left:100px;margin: 0px,0px,padding:0px;
+
+transition: width 2s, height 2s, transform 1s;
+}
+
+.MENU:hover {
+width: 500px;
+height: 500px;
+transform: rotate(360deg)
+;
+}
+.snack{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:snack;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 0s;
+TOP:1600PX;
+
+}
+
+@keyframes snack {
+0%   { TOP:2500px;}
+100%  {TOP:0px;}}
+.snack:hover{color:black;border-style: dotted;font-size: 130px;}
+.burgers{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 90px;background-color:none;border-color: black;animation-name:burgers;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 0.6s;
+TOP:1600PX;
+
+}
+
+@keyframes burgers {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.burgers:hover{color:black;border-style: dotted;font-size: 110px;}
+.salads{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:salads;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 1s;
+TOP:1600PX;
+
+}
+
+@keyframes salads {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.salads:hover{color:black;border-style: dotted;font-size: 130px;}
+.mains{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:mains;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 1.5s;
+TOP:1600PX;
+
+}
+
+@keyframes mains {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.mains:hover{color:black;border-style: dotted;font-size: 130px;}
+.kids{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:kids;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2s;
+TOP:1600PX;
+
+}
+
+@keyframes kids {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.kids:hover{color:black;border-style: dotted;font-size: 130px;}
+.breakfast{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:breakfast;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2.4s;
+TOP:1600PX;
+
+}
+
+@keyframes breakfast {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}}
+.breakfast:hover{color:black;border-style: dotted;font-size: 110px;}
+.desserts{ position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;display: inline-block;animation-name:desserts;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 2.8s;
+TOP:1600PX;
+
+}
+
+@keyframes desserts {
+0%   { TOP:1600px;}
+100%  {TOP:0px;}
+}
+.desserts:hover{color:black;border-style: dotted;font-size: 130px;}
+.p1{font-family:serif,ARIAL,sans-serif;font-size:65px;font-weight: bold;text-align: left;color:black;position: relative;padding:0px;margin-top: -30px;left: 10px}
+.price{color:red;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-70px;left: 300px;margin-bottom: 25px;}
+.p2{font-family:serif,ARIAL,sans-serif;position: relative;font-size: 50px;top:-170px;margin: 0 auto 0 auto;padding: 0px;text-align: left;font-weight:bolder;left: 10px}
+.price2{color:red;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-195px;left: 300px;margin-bottom: 25px;}
+.priv{color:red;font-size: 80px;font-weight: bolder;;text-decoration: none;position:relative;
+right:450px;display: inline-block;top: -250px;opacity: 40%;}
+.priv:hover{font-size:100px;color:white;opacity: 100%}
+.priv0{color:white;font-size: 80px;font-weight: bolder;;text-decoration: none;position:relative;
+right:450px;display: inline-block;top: -450px;opacity: 40%;}
+.priv0:hover{font-size:100px;color:white;opacity: 100%}
+.price3{color:red;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-80px;left: 300px;margin-bottom: 25px;}
+.ps{font-family:serif,ARIAL,sans-serif;font-size:64px;font-weight: bold;text-align: left;color:black;position: relative;padding:0px;margin-top: -30px;left: 10px}
+.bebidas{z-index: 1;width: 250px;height: 350px;display: inline-block;position:absolute;left:225px;margin: 0px,0px,padding:0px;TOP:1600PX;
+
+transition: width 2s, height 2s, transform 1s;
+}
+
+.bebidas:hover {
+width: 400px;
+height: 550px;
+transform: rotate(360deg)
+;
+}
+
+.drinks{width: 250px;height: 350px;position:absolute;left:725px;margin: 0px,0px,padding:0px; z-index: 1;
+
+transition: width 2s, height 2s, transform 1s;
+}
+
+.drinks:hover {
+width: 400px;
+height: 550px;
+transform: rotate(360deg)
+;
+}
+.drinks{animation-name:drinks;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 4s;
+TOP:-4000PX;
+
+}
+
+@keyframes drinks {
+0%   { TOP:3000px;}
+100%  {TOP:1600px;}
+
+}
+
+.drinks:hover {
+width: 400px;
+height: 550px;
+transform: rotate(360deg)
+;
+}
+.bebidas{animation-name:bebidas;
+animation-duration: 2s;
+animation-iteration-count:1;
+animation-fill-mode: forwards;
+animation-delay: 3.5s;
+TOP:-4000PX;
+
+}
+
+@keyframes bebidas {
+0%   { TOP:3000px;}
+100%  {TOP:1600px;}
+
+}
+h5{color: WHITE;font-size: 50px;}
+h6{color: WHITE;font-size: 60px; top: 800PX;position: relative;z-index:0;font-family: sans-serif,serif;}
+.h2{ position:absolute;;top:910px;left: 315px;text-decoration: none;
+  COLOR:BLACK;border-width:10PX;font-size: 60PX; border-color: white;border-style:double;;display: inline-block;border-radius: 40px;letter-spacing: 120px;padding-left: 100px}
+  .H2{ position:absolute;;top:1870px;left: 315px;text-decoration: none;
+    COLOR:BLACK;border-width:10PX;font-size: 60PX; border-color: white;border-style:double;;display: inline-block;border-radius: 40px;letter-spacing: 120px;padding-left: 100px}
+.H2:hover{background-color:white;}
+.h2:hover{background-color:white;}
+.h0{COLOR:white;font-size: 100PX;font-family:sans-serif,arial,serif;margin-bottom: 100PX;left:10PX;position: relative;}
