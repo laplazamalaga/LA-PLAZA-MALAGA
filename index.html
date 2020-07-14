@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=4.0 minimum-scale=0.29">
+    <link rel="stylesheet" href="style.css">
+    <title>LAPLAZA MALAGA</title>
+  </head>
+  <body>
+
+    <div id="container10">
+
+        <a href="#"><img class="logo4" src="logo.png" alt="menu-restaurante-la-plaza"></a>
+<div class="clear">
+
+</div>
+
+<a id="esbtn" href="#"><img id="es"src="esbtn.png" alt="spansih-flag"></a>
+<div id="showtime">
+  <p class="bienvinidos">BIENVENIDOS A LA PLAZA MALAGA !</p>
+  <p class="bienvinidos">porfavor seleccione su restaurante </p>
+  <a class="ales" href="rootales.html">ALCAZABILLA</a>
+  <br><br>
+   <a class="mees" href="rootmees.html">MERCED</a>
+
+</div>
+<div id="showtime2">
+<p class="welcome"> WELCOME TO LA  PLAZA MALAGA !</p>
+<p> please select your restaurant</p>
+<a class="ales" href="alcazabillain.html">ALCAZABILLA</a>
+<br><br>
+ <a class="mees" href="rootmercedin.html">MERCED</a>
+</div>
+<a id="enbtn" href="#"><img id="en"src="enbtn.png" alt="english-flag"></a>
+
+<a id="reset1"href="#"><img class="reset"src="arrowleft.png" alt="left"></a>
+<a id="reset2"href="#"><img class="reset2"src="arrowright.png" alt="right"></a>
+
+
+<script type="text/javascript">
+
+  document.getElementById('esbtn').onclick = function functionName() {
+    document.getElementById('showtime').style.display= "block";
+  document.getElementById('en').style.width="0px";
+  document.getElementById('en').style.height="350px";
+  document.getElementById('es').style.left="0px";
+  document.getElementById('reset1').style.display= "block";
+  document.getElementById('reset2').style.display= "none";
+
+}
+
+  document.getElementById('enbtn').onclick = function functionName() {
+
+
+
+    document.getElementById('showtime2').style.display= "block";
+  document.getElementById('es').style.width="0px";
+  document.getElementById('es').style.height="350px";
+  document.getElementById('en').style.left="-25px";
+  document.getElementById('es').style.marginLeft="10px";
+
+
+  document.getElementById('reset2').style.display= "block";
+  document.getElementById('reset1').style.display= "none";
+  document.getElementById('es').style.marginRight="10px";
+  document.getElementById('es').style.paddingRight="10px";
+
+
+
+}
+document.getElementById('reset1').onclick = function functionName() {
+  document.getElementById('en').style.width="400px";
+  document.getElementById('en').style.height="400px";
+  document.getElementById('es').style.width="400px";
+  document.getElementById('es').style.height="400px";
+  document.getElementById('showtime').style.display= "none";
+  document.getElementById('reset1').style.display= "none";
+  document.getElementById('es').style.left="-40px";
+  //document.getElementById('es').style.marginBottom="30px";
+
+}
+document.getElementById('reset2').onclick = function functionName() {
+  document.getElementById('reset2').style.display= "none";
+  document.getElementById('en').style.width="400px";
+  document.getElementById('en').style.height="400px";
+  document.getElementById('es').style.width="400px";
+  document.getElementById('es').style.height="400px";
+  document.getElementById('showtime2').style.display= "none";
+  document.getElementById('es').style.left="-70px";
+  document.getElementById('en').style.left="70px";
+  //document.getElementById('en').style.marginBottom="30px";
+
+}
+
+
+    /*var x = document.getElementById('showime');
+    if (x.style.display==="block"){
+      x.style.display= "none"; } else{x.style.display = "none";}*/
+
+
+</script>
+    </div>
+
+  </body>
+</html>
