@@ -357,9 +357,9 @@ right:450px;display: inline-block;top: -250px;opacity: 40%;}
 .h16:hover{color:green;}
 .h17{position: absolute;top:2500px;display: inline-block;font-size:35px;right:-400px;margin: 0 auto 0 auto;padding: 0 auto 0 auto;}
 #getwifi{ display: none;border-radius:10%;border-style: double;border-width:20px;width: 600px ;height:1650px; color: white;position: absolute;top:1500px;left: 290px;transition: height 2s;}
-#getwifip{text-align: center;color: white;font-size: 75px;position:relative;margin-top: 75px;padding: 0px;}
+#getwifip{text-align: center;color: white;font-size: 75px;position:relative;margin-top: 10px;padding: 0px;}
 #getwifi2{ display: none;border-radius:10%;border-style: double;border-width:20px;width: 700px ;height:1650px; color: white;position: absolute;top:1500px;left: 245px;transition: height 2s;}
-#getwifip2{text-align: center;color: white;font-size: 70px;position:relative;margin-top: 75px;padding: 0px;}
+#getwifip2{text-align: center;color: white;font-size: 70px;position:relative;margin-top: 10px;padding: 0px;}
 
 #input{width: 540px;height:100px;font-size: 55px;position: relative;right:0px;background-color: RED;top: 0px;margin: 0px;padding: 0px;}
 #input2{width: 540px;height:100px;font-size: 55px;position: relative;right:0px;background-color: RED;top: 30px;margin: 0px;padding: 0px;}
