@@ -203,16 +203,16 @@ TOP:1600PX;
 }
 .desserts:hover{color:black;border-style: dotted;font-size: 130px;}
 .p1{font-family:serif,ARIAL,sans-serif;font-size:65px;font-weight: bold;text-align: left;color:black;position: relative;padding:0px;margin-top: -30px;left: 10px}
-.price{color:red;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-70px;left: 300px;margin-bottom: 25px;}
+.price{color:black;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-70px;left: 300px;margin-bottom: 25px;}
 .p2{font-family:serif,ARIAL,sans-serif;position: relative;font-size: 50px;top:-170px;margin: 0 auto 0 auto;padding: 0px;text-align: left;font-weight:bolder;left: 10px}
-.price2{color:red;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-195px;left: 300px;margin-bottom: 25px;}
+.price2{color:black;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-195px;left: 300px;margin-bottom: 25px;}
 .priv{color:red;font-size: 80px;font-weight: bolder;;text-decoration: none;position:relative;
 right:450px;display: inline-block;top: -250px;opacity: 40%;}
 .priv:hover{font-size:100px;color:white;opacity: 100%}
 .priv0{color:white;font-size: 80px;font-weight: bolder;;text-decoration: none;position:relative;
 right:450px;display: inline-block;top: -450px;opacity: 40%;}
 .priv0:hover{font-size:100px;color:white;opacity: 100%}
-.price3{color:red;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-80px;left: 300px;margin-bottom: 25px;}
+.price3{color:black;font-family:serif,ARIAL,sans-serif;font-size: 60px;font-weight: bold;position: relative;margin-left:100px;margin-right: 0px;padding-left: 0px;display: inline-block;top:-80px;left: 300px;margin-bottom: 25px;}
 .ps{font-family:serif,ARIAL,sans-serif;font-size:64px;font-weight: bold;text-align: left;color:black;position: relative;padding:0px;margin-top: -30px;left: 10px}
 .bebidas{z-index: 1;width: 350px;height: 450px;display: inline-block;position:absolute;left:225px;margin: 0px,0px,padding:0px;TOP:1600PX;
 
