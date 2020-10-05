@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=4.0 minimum-scale=0.29">
+    <link rel="stylesheet" href="style.css">
+    <title>LAPLAZA MALAGA</title>
+  </head>
+  <body>
+
+    <div id="container10">
+
+        <a href="#"><img class="logo4" src="logo.png" alt="menu-restaurante-la-plaza"></a>
+<div class="clear">
+
+</div>
+
+<a id="esbtn" href="#"><img id="es"src="esbtn.png" alt="spansih-flag"></a>
+<div id="showtime">
+  <p class="bienvinidos">¡BIENVENIDOS A LA PLAZA MALAGA!</p>
+  <p class="bienvinidos">Porfavor seleccione su restaurante: </p>
+  <a class="ales2" href="rootales.html">ALCAZABILLA</a>
+  <p class="explain">(cerca del castillo)</p>
+   <a class="mees2" href="rootmees.html">MERCED</a>
+   <a href="C:\Users\Samer hannah\Desktop\QRPLAZA\50pdf.pdf"> open pdf</a>
+
+</div>
+<div id="showtime2">
+<p class="welcome"> WELCOME TO LA  PLAZA MALAGA!</p>
+<p> Please select your restaurant:</p>
+<a class="ales" href="alcazabillain.html">ALCAZABILLA</a>
+<p class="explain">(next to the castle)</p>
+
+ <a class="mees" href="rootmercedin.html">MERCED</a>
+ <a id="wifibtn"href="#">GET WIFI KEY</a>
+
+</div>
+<a id="enbtn" href="#"><img id="en"src="enbtn.png" alt="english-flag"></a>
+
+<a id="reset1"href="#"><img class="reset"src="arrowleft.png" alt="left"></a>
+<a id="reset2"href="#"><img class="reset2"src="arrowright.png" alt="right"></a>
+<div id="getwifi">
+  <p id="getwifip">please write correctly  what you see inside the square of your "QR" code on the table to get the key for the wifi
+</p>
+<input id="input" type="text" name="password" value="">
+<input id="input2" type="submit" name="" value="SUBMIT">
+<img  id="getwifiimg"src="getwifi.png" alt="">
+<img id="marker"src="marker.png" alt="">
+
+
+</div>
+<div id="getwifi2">
+  <p id="getwifip2">porfavor mete  las 3 palabras que estan puestas en el centro de tu codigo "QR"en la mesa para conseguir la clave del wifi
+</p>
+<input id="input4" type="text" name="password" value="">
+<input id="input3" type="submit" name="" value="ENVIAR">
+<img  id="getwifiimg2"src="getwifi.png" alt="">
+<img id="marker1"src="marker.png" alt="">
+</div>
+<!-- <a id="cupon" href="#">GET 20% OFF CUPON</a>
+
+<div id="cupondiv">
+  <div id="divpon">
+  <input id="inpon" type="text" name="" value="">
+  <input id="subpon" type="submit" name="" value="CHECK YOUR CUPON">
+  <p id="timer">TIME LEFT</p>
+  <img id="logo5" src="logo.png" alt="">
+
+
+
+
+</div></div>-->
+
+  </div>
+
+
+<script type="text/javascript">
+window.scroll({
+top: 0,
+left: 0,
+behavior: 'smooth'
+});
+
+ /*document.getElementById('cupon').onclick = function functionName(){
+  document.getElementById('cupondiv').style.display= " inline-block";
+  document.getElementById('cupon').style.display= "none";
+  document.getElementById('wifibtn').style.display= "inline-block";
+  document.getElementById('getwifi').style.display= "none";
+
+  window.scroll({
+  top: 1100,
+  left: 0,
+  behavior: 'smooth'
+  });
+}
+document.getElementById('subpon').onclick = function functionName(){
+  document.getElementById('divpon').style.background= "linear-gradient(180deg,orange,orange,orange,black)";
+  document.getElementById('subpon').style.width= "1000px";
+  document.getElementById('subpon').style.backgroundColor= "white";
+  document.getElementById('subpon').value= "20% OFF IN 'MERCED'";
+  document.getElementById('subpon').style.fontSize= "80px";
+  document.getElementById('subpon').style.opacity= "70%";
+  document.getElementById('subpon').style.color= "orange";
+  document.getElementById('inpon').style.display= "none";
+  document.getElementById('timer').style.display= "inline-block";
+  document.getElementById('timer').style.fontSize= "90px";
+  document.getElementById('logo5').style.display= "inline-block";
+
+
+   Set the date we're counting down to
+var countDownDate = new Date("jul 31, 2020 11:58:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "EXPIRED";
+    document.getElementById('logo5').style.display= "none";
+    document.getElementById('timer').value= "inline-block";
+    document.getElementById('subpon').value= "hope that you enjoyed it";
+
+
+
+  }
+}, 1000);
+
+
+
+
+
+
+
+
+
+}*/
+
+
+  document.getElementById('esbtn').onclick = function functionName() {
+    document.getElementById('showtime').style.display= "block";
+  document.getElementById('en').style.width="0px";
+  document.getElementById('en').style.height="350px";
+  document.getElementById('es').style.left="0px";
+  document.getElementById('reset1').style.display= "block";
+  document.getElementById('reset2').style.display= "none";
+  document.getElementById('getwifi').style.display= "none";
+  document.getElementById('wifibtn').style.display= "none";
+  document.getElementById('wifibtn2').style.display= "block";
+  document.getElementById('getwifi2').style.display= "none";
+
+
+
+
+
+
+
+}
+
+  document.getElementById('enbtn').onclick = function functionName() {
+
+
+
+    document.getElementById('showtime2').style.display= "block";
+  document.getElementById('es').style.width="0px";
+  document.getElementById('es').style.height="350px";
+  document.getElementById('en').style.left="-25px";
+  document.getElementById('es').style.marginLeft="10px";
+
+
+  document.getElementById('reset2').style.display= "block";
+  document.getElementById('reset1').style.display= "none";
+  document.getElementById('es').style.marginRight="10px";
+  document.getElementById('es').style.paddingRight="10px";
+  document.getElementById('wifibtn2').style.display= "none";
+  document.getElementById('wifibtn').style.display= "block";
+  document.getElementById('getwifi').style.display= "none";
+  /*document.getElementById('cupon').style.display= "inline-block";*/
+
+
+
+
+
+
+
+}
+document.getElementById('reset1').onclick = function functionName() {
+  document.getElementById('en').style.width="400px";
+  document.getElementById('en').style.height="400px";
+  document.getElementById('es').style.width="400px";
+  document.getElementById('es').style.height="400px";
+  document.getElementById('showtime').style.display= "none";
+  document.getElementById('reset1').style.display= "none";
+  document.getElementById('es').style.left="-40px";
+    document.getElementById('wifibtn').style.display= "none";
+    document.getElementById('wifibtn2').style.display= "block";
+    document.getElementById('getwifi2').style.display= "none";
+    document.getElementById('getwifi').style.display= "none";
+
+
+
+  //document.getElementById('es').style.marginBottom="30px";
+
+}
+document.getElementById('reset2').onclick = function functionName() {
+  document.getElementById('reset2').style.display= "none";
+  document.getElementById('en').style.width="400px";
+  document.getElementById('en').style.height="400px";
+  document.getElementById('es').style.width="400px";
+  document.getElementById('es').style.height="400px";
+  document.getElementById('showtime2').style.display= "none";
+  document.getElementById('es').style.left="-70px";
+  document.getElementById('en').style.left="70px";
+  document.getElementById('wifibtn2').style.display= "none";
+  document.getElementById('wifibtn').style.display= "block";
+  document.getElementById('getwifi').style.display= "none";
+  document.getElementById('getwifi2').style.display= "none";
+  document.getElementById('cupon').style.display= "none";
+
+  //document.getElementById('en').style.marginBottom="30px";
+
+}
+
+
+    /*var x = document.getElementById('showime');
+    if (x.style.display==="block"){
+      x.style.display= "none"; } else{x.style.display = "none";}*/
+     // Bottom
+
+     document.getElementById('wifibtn').onclick = function functionName() {
+
+
+             document.getElementById('getwifi').style.display= "inline-block";
+             document.getElementById('getwifi').style.top= "2200px";
+             document.getElementById('wifibtn').style.display= "none";
+             document.getElementById('marker').style.display= "inline-block";
+             document.getElementById('getwifi2').style.display= "none";
+          /*  document.getElementById('cupondiv').style.display= "none";
+             document.getElementById('cupon').style.display= "inline-block";
+*/
+             window.scroll({
+         top: 2000,
+         left: 0,
+         behavior:'smooth'
+       });
+           }
+      document.getElementById('wifibtn2').onclick = function functionName() {
+        document.getElementById('wifibtn2').style.display= "none";
+        document.getElementById('getwifi2').style.display= "inline-block";
+        document.getElementById('getwifi2').style.top= "2200px";
+        document.getElementById('marker1').style.display= "inline-block";
+
+
+                window.scroll({
+            top: 2000,
+            left: 0,
+            behavior:'smooth'
+          });
+        }
+
+                       document.getElementById('input3').onclick = function functionName() {
+                         var z = "";  z = k=document.getElementById('input4').value;
+                         var t ="la plaza malaga";
+
+                          if (z==t) {  document.getElementById('getwifiimg2').style.display= "none";
+                          document.getElementById('input4').style.display= "none";
+                          document.getElementById('input3').style.display= "none";
+                          document.getElementById('marker1').style.display= "none";
+                          document.getElementById('getwifip2').style.fontSize= "75px";
+                          document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                          document.getElementById('getwifi2').style.height= "450px";
+                          document.getElementById('container10').style.height= "2800px";
+
+                          }
+                  else if (z=="LA PLAZA MALAGA") {
+                    document.getElementById('getwifiimg2').style.display= "none";
+                    document.getElementById('input4').style.display= "none";
+                    document.getElementById('input3').style.display= "none";
+                    document.getElementById('marker1').style.display= "none";
+                    document.getElementById('getwifip2').style.fontSize= "75px";
+                    document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                    document.getElementById('getwifi2').style.height= "450px";
+                    document.getElementById('container10').style.height= "2800px";
+
+
+
+                  }
+                  else if (z=="LAPLAZAMALAGA") {
+                    document.getElementById('getwifiimg2').style.display= "none";
+                    document.getElementById('input4').style.display= "none";
+                    document.getElementById('input3').style.display= "none";
+                    document.getElementById('marker1').style.display= "none";
+                    document.getElementById('getwifip2').style.fontSize= "75px";
+                    document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                    document.getElementById('getwifi2').style.height= "450px";
+                    document.getElementById('container10').style.height= "2800px";
+
+                  }
+                  else if (z=="laplazamalaga") {
+                    document.getElementById('getwifiimg2').style.display= "none";
+                    document.getElementById('input4').style.display= "none";
+                    document.getElementById('input3').style.display= "none";
+                    document.getElementById('marker1').style.display= "none";
+                    document.getElementById('getwifip2').style.fontSize= "75px";
+                    document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                    document.getElementById('getwifi2').style.height= "450px";;
+                    document.getElementById('container10').style.height= "2800px";
+
+                  }
+                  else if (z=="Laplazamalaga") {
+                    document.getElementById('getwifiimg2').style.display= "none";
+                    document.getElementById('input4').style.display= "none";
+                    document.getElementById('input3').style.display= "none";
+
+                    document.getElementById('marker1').style.display= "none";
+                    document.getElementById('getwifip2').style.fontSize= "75px";
+                    document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                    document.getElementById('getwifi2').style.height= "450px";
+                    document.getElementById('container10').style.height= "2800px";
+                  }
+
+                    else if (z=="La plaza malaga") {
+                      document.getElementById('getwifiimg2').style.display= "none";
+                      document.getElementById('input4').style.display= "none";
+                      document.getElementById('input3').style.display= "none";
+
+                      document.getElementById('marker1').style.display= "none";
+                      document.getElementById('getwifip2').style.fontSize= "75px";
+                      document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                      document.getElementById('getwifi2').style.height= "450px";
+                      document.getElementById('container10').style.height= "2800px";
+                    }
+
+                      else if (z=="La plaza málaga") {
+                        document.getElementById('getwifiimg2').style.display= "none";
+                        document.getElementById('input4').style.display= "none";
+                        document.getElementById('input3').style.display= "none";
+                        document.getElementById('marker1').style.display= "none";
+                        document.getElementById('getwifip2').style.fontSize= "75px";
+                        document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                        document.getElementById('getwifi2').style.height= "450px";
+                        document.getElementById('container10').style.height= "2800px";
+                      }
+
+                        else if (z=="LA PLAZA MÁLAGA") {
+                          document.getElementById('getwifiimg2').style.display= "none";
+                          document.getElementById('input4').style.display= "none";
+                          document.getElementById('input3').style.display= "none";
+                          document.getElementById('marker1').style.display= "none";
+                          document.getElementById('getwifip2').style.fontSize= "75px";
+                          document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                          document.getElementById('getwifi2').style.height= "450px";
+                          document.getElementById('container10').style.height= "2800px";
+                        }
+
+                          else if (z=="LAPLAZAMÁLAGA") {
+                            document.getElementById('getwifiimg2').style.display= "none";
+                            document.getElementById('input4').style.display= "none";
+                            document.getElementById('input3').style.display= "none";
+                            document.getElementById('marker1').style.display= "none";
+                            document.getElementById('getwifip2').style.fontSize= "75px";
+                            document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                            document.getElementById('getwifi2').style.height= "450px";
+                            document.getElementById('container10').style.height= "2800px";}
+
+                            else if (z=="Laplazamálaga") {
+                              document.getElementById('getwifiimg2').style.display= "none";
+                              document.getElementById('input4').style.display= "none";
+                              document.getElementById('input3').style.display= "none";
+                              document.getElementById('marker1').style.display= "none";
+                              document.getElementById('getwifip2').style.fontSize= "75px";
+                              document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                              document.getElementById('getwifi2').style.height= "450px";
+                              document.getElementById('container10').style.height= "2800px";
+
+
+                            }
+
+                              else if (z=="la plaza málaga") {
+                                document.getElementById('getwifiimg2').style.display= "none";
+                                document.getElementById('input4').style.display= "none";
+                                document.getElementById('input3').style.display= "none";
+                                document.getElementById('marker1').style.display= "none";
+                                document.getElementById('getwifip2').style.fontSize= "75px";
+                                document.getElementById('getwifip2').innerHTML= "genial!!!! la clave es ' plazamalaga ' que disfrutes !";
+                                document.getElementById('getwifi2').style.height= "450px";
+                                document.getElementById('container10').style.height= "2800px";
+
+
+                              }
+
+
+                            else {
+                              document.getElementById('input3').value= " intentalo de nuevo";
+                              document.getElementById('input3').style.fontWeight= "bolder";
+
+
+                            }
+
+
+                        }
+
+
+      document.getElementById('input2').onclick = function functionName() {
+        var x = "";  x = document.getElementById('input').value;
+        var y ="la plaza malaga";
+        if (x==y) {document.getElementById('getwifiimg').style.display= "none";
+        document.getElementById('input').style.display= "none";
+        document.getElementById('input2').style.display= "none";
+        document.getElementById('marker').style.display= "none";
+        document.getElementById('getwifip').style.fontSize= "75px";
+        document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay!";
+        document.getElementById('getwifi').style.height= "450px";
+        document.getElementById('container10').style.height= "2800px";
+
+        }
+else if (x=="LA PLAZA MALAGA") {
+  document.getElementById('getwifiimg').style.display= "none";
+  document.getElementById('input').style.display= "none";
+  document.getElementById('input2').style.display= "none";
+  document.getElementById('marker').style.display= "none";
+  document.getElementById('getwifip').style.fontSize= "75px";
+  document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+  document.getElementById('getwifi').style.height= "450px";
+  document.getElementById('container10').style.height= "2800px";
+  document.getElementById('getwifi').style.fontSize= "60px";
+
+
+}
+else if (x=="LAPLAZAMALAGA") {
+  document.getElementById('getwifiimg').style.display= "none";
+  document.getElementById('input').style.display= "none";
+  document.getElementById('input2').style.display= "none";
+  document.getElementById('getwifip').style.fontSize= "75px";
+  document.getElementById('marker').style.display= "none";
+  document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+  document.getElementById('getwifi').style.height= "450px";
+  document.getElementById('container10').style.height= "2800px";
+
+}
+else if (x=="laplazamalaga") {
+  document.getElementById('getwifiimg').style.display= "none";
+  document.getElementById('input').style.display= "none";
+  document.getElementById('getwifip').style.fontSize= "75px";
+  document.getElementById('input2').style.display= "none";
+  document.getElementById('marker').style.display= "none";
+  document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+  document.getElementById('getwifi').style.height= "450px";
+  document.getElementById('container10').style.height= "2800px";
+
+}
+else if (x=="Laplazamalaga") {
+  document.getElementById('getwifiimg').style.display= "none";
+  document.getElementById('input').style.display= "none";
+  document.getElementById('input2').style.display= "none";
+  document.getElementById('getwifip').style.fontSize= "75px";
+  document.getElementById('marker').style.display= "none";
+  document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+  document.getElementById('getwifi').style.height= "450px";
+  document.getElementById('container10').style.height= "2800px";
+}
+
+  else if (x=="La plaza malaga") {
+    document.getElementById('getwifiimg').style.display= "none";
+    document.getElementById('input').style.display= "none";
+    document.getElementById('input2').style.display= "none";
+    document.getElementById('getwifip').style.fontSize= "75px";
+    document.getElementById('marker').style.display= "none";
+    document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+    document.getElementById('getwifi').style.height= "450px";
+    document.getElementById('container10').style.height= "2800px";
+  }
+
+    else if (x=="La plaza málaga") {
+      document.getElementById('getwifiimg').style.display= "none";
+      document.getElementById('input').style.display= "none";
+      document.getElementById('input2').style.display= "none";
+      document.getElementById('marker').style.display= "none";
+      document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+      document.getElementById('getwifip').style.fontSize= "75px";
+      document.getElementById('getwifi').style.height= "450px";
+      document.getElementById('container10').style.height= "2800px";
+    }
+
+      else if (x=="LA PLAZA MÁLAGA") {
+        document.getElementById('getwifiimg').style.display= "none";
+        document.getElementById('input').style.display= "none";
+        document.getElementById('input2').style.display= "none";
+        document.getElementById('marker').style.display= "none";
+        document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+        document.getElementById('getwifi').style.height= "450px";
+        document.getElementById('getwifip').style.fontSize= "75px";
+        document.getElementById('container10').style.height= "2800px";
+      }
+
+        else if (x=="LAPLAZAMÁLAGA") {
+          document.getElementById('getwifiimg').style.display= "none";
+          document.getElementById('input').style.display= "none";
+          document.getElementById('input2').style.display= "none";
+          document.getElementById('marker').style.display= "none";
+          document.getElementById('getwifip').innerHTML= "great!!!! password is ' plazamalaga ' Enjoy your stay !";
+          document.getElementById('getwifi').style.height= "450px";
+          document.getElementById('getwifip').style.fontSize= "75px";
+          document.getElementById('container10').style.height= "2800px";}
+
+          else if (x=="Laplazamálaga") {
+            document.getElementById('getwifiimg').style.display= "none";
+            document.getElementById('input').style.display= "none";
+            document.getElementById('input2').style.display= "none";
+            document.getElementById('marker').style.display= "none";
+            document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+            document.getElementById('getwifi').style.height= "450px";
+            document.getElementById('container10').style.height= "2800px";
+            document.getElementById('getwifip').style.fontSize= "75px";
+
+          }
+
+            else if (x=="la plaza málaga") {
+              document.getElementById('getwifiimg').style.display= "none";
+              document.getElementById('input').style.display= "none";
+              document.getElementById('input2').style.display= "none";
+              document.getElementById('marker').style.display= "none";
+              document.getElementById('getwifip').innerHTML= "Great!!!! password is ' plazamalaga ' Enjoy your stay !";
+              document.getElementById('getwifi').style.height= "450px";
+              document.getElementById('container10').style.height= "2800px";
+              document.getElementById('getwifip').style.fontSize= "75px";
+
+            }
+
+
+          else {
+            document.getElementById('input2').value= " NOPE! TRY AGAIN";
+            document.getElementById('input2').style.fontWeight= "bolder";
+
+
+          }
+
+
+
+
+      }
+
+</script>
+
+
+  </body>
+</html>
