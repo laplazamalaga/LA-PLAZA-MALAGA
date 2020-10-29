@@ -52,18 +52,8 @@ animation-delay: 0.5s;
 TOP:2000PX;
 LEFT:0PX;
 }
-.MENU0:hover {
-width: 550px;
-height: 550px;
-transform: rotate(360deg)
-;
-}
 
-@keyframes MENU {
-0%   { TOP:1600px;}
-100%  {TOP:0px;}
 
-}
 .MENU0{z-index: 1;width: 400px;height: 400px;display: inline-block;position: relative;left:100px;margin: 0px,0px,padding:0px;
 
 transition: width 2s, height 2s, transform 1s;
@@ -104,12 +94,8 @@ LEFT:0PX
 transition: width 2s, height 2s, transform 1s;
 }
 
-.MENU:hover {
-width: 550px;
-height: 550px;
-transform: rotate(360deg)
-;
-}
+
+
 .snack{position: relative;border-style:none; border-width: 10px;text-decoration: none;color:white; font-weight: bolder;font-size: 100px;background-color:none;border-color: black;animation-name:snack;
 animation-duration: 2s;
 animation-iteration-count:1;
